@@ -70,3 +70,7 @@ document.getElementById("searchInput").addEventListener("keypress", function(eve
     }
 
 });
+
+function toggleMenu(){
+    document.getElementById("navbar").classList.toggle("show");
+}

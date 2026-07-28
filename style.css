@@ -67,11 +67,17 @@ button:hover{
     margin-right:10px;
 }
 
+.top-bar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
 header h1{
     display:flex;
-    justify-content:center;
     align-items:center;
     gap:10px;
+    margin:0;
 }
 
 .hero{
@@ -372,6 +378,9 @@ header h1{
 
 .menu-btn{
     display:block;
+    font-size:30px;
+    padding:8px 12px;
+    margin:0;
 }
 
 #navbar{

@@ -1,35 +1,9 @@
-body{
-   margin:0;
-   background:#0d1117;
-   color:#00ff88;
-   font-family:Arial, sans-serif;
-   text-align:center;
-}
-
-headar{
-    background:#161b22;
-    padding:20px;
-    font-size:30px;
+html{
+    scroll-behavior:smooth;
 }
 
 section{
     margin-top:100px;
-}
-
-button{
-    background:#ff2d2d;
-    color:white;
-    border:none;
-    padding:12px 30px;
-    border-radius:8px;
-    cursor:pointer;
-    font-size:16px;
-    transition:0.3s;
-}
-
-button:hover{
-    background:#b30000;
-    transform:scale(1.05);
 }
 
 nav{
@@ -48,8 +22,11 @@ nav a:hover{
 }
 
 body{
+    margin:0;
     background:#0b0b0b;
     color:white;
+    font-family:Arial, sans-serif;
+    text-align:center;
 }
 
 header{
@@ -58,7 +35,9 @@ header{
     position:sticky;
     top:0;
     z-index:1000;
+    padding:15px 20px;
 }
+
 .logo{
     background:red;
     color:white;
@@ -71,10 +50,17 @@ header{
 button{
     background:red;
     color:white;
+    border:none;
+    padding:12px 30px;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:16px;
+    transition:0.3s ease;
 }
 
 button:hover{
     background:#b30000;
+    transform:scale(1.05);
 }
 
 .logo-img{

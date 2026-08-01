@@ -16,11 +16,12 @@ body{
 
 header{
     background:#111;
-    border-bottom:3px solid red;
+    border-bottom:2px solid #ff2d2d;
     position:sticky;
     top:0;
     z-index:1000;
-    padding:15px 20px;
+    padding:12px 20px;
+    box-shadow:0 3px 12px rgba(0,0,0,.4);
 }
 
 .logo{
@@ -160,26 +161,24 @@ header h1{
     color:#ddd;
 }
 
-.breaking-news{
-    background:#c00000;
-    color:white;
-    padding:10px;
-    font-weight:bold;
-    font-size:18px;
-}
 
 .search-box{
     margin:0;
 }
 
 .search-box input{
-    width:220px;
+    width:200px;
     padding:10px 15px;
     border-radius:25px;
     border:1px solid #333;
     background:#1b1b1b;
     color:white;
     outline:none;
+    transition:.3s;
+}
+
+.search-box input:focus{
+    border-color:#ff2d2d;
 }
 
 .date{
@@ -270,13 +269,6 @@ footer p{
     color:#ff2d2d;
 }
 
-#clock{
-    color:#ff2d2d;
-    text-align:center;
-    font-size:18px;
-    padding:10px;
-    font-weight:bold;
-}
 
 .trending{
     padding:40px;
@@ -476,5 +468,51 @@ nav a{
 
 .headline-list a:hover{
     background:#1b1b1b;
+    color:#ff2d2d;
+}
+
+/* ==========================
+   Latest Headlines
+========================== */
+
+.latest-headlines{
+    width:90%;
+    max-width:900px;
+    margin:30px auto;
+    text-align:left;
+    background:#161616;
+    border-radius:12px;
+    padding:20px;
+    border-left:4px solid #ff2d2d;
+}
+
+.latest-headlines h2{
+    color:#ff2d2d;
+    margin-bottom:15px;
+    font-size:28px;
+}
+
+.latest-headlines ul{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+
+.latest-headlines li{
+    padding:12px 0;
+    border-bottom:1px solid #333;
+}
+
+.latest-headlines li:last-child{
+    border-bottom:none;
+}
+
+.latest-headlines a{
+    color:white;
+    text-decoration:none;
+    font-size:18px;
+}
+
+.latest-headlines a:hover{
     color:#ff2d2d;
 }

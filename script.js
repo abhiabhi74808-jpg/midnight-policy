@@ -1,21 +1,14 @@
-function updateClock() {
-    const now = new Date();
+// ===============================
+// Midnight Policy
+// Version 2.0
+// Developed by BG
+// Sprint 3
+// ===============================
 
-    const options = {
-        weekday: "long",
-        day: "numeric",
-        month: "long",
-        year: "numeric"
-    };
+// ===============================
+// Search Function
+// ===============================
 
-    document.getElementById("clock").innerHTML =
-        now.toLocaleDateString("en-GB", options) +
-        " | " +
-        now.toLocaleTimeString("en-GB");
-}
-
-setInterval(updateClock, 1000);
-updateClock();
 
 function searchNews() {
 
@@ -63,6 +56,10 @@ function searchNews() {
 
 }
 
+// ===============================
+// Search with Enter Key
+// ===============================
+
 document.getElementById("searchInput").addEventListener("keypress", function(event){
 
     if(event.key === "Enter"){
@@ -70,6 +67,10 @@ document.getElementById("searchInput").addEventListener("keypress", function(eve
     }
 
 });
+
+// ===============================
+// Mobile Menu
+// ===============================
 
 function toggleMenu(){
     document.getElementById("navbar").classList.toggle("show");

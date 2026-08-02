@@ -3,37 +3,148 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>India News - Midnight Policy</title>
+<title>World News - Midnight Policy</title>
 <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="india.html">India</a>
-        <a href="world.html">world</a>
-        <a href="economy.html">Economy</a>
-        <a href="defence.html">Defence</a>
-        <a href="research.html">Research</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
-     </nav>
+   <header>
 
-<header>
-    
-<h1>🇮🇳 India News</h1>
+<div class="top-bar">
+
+<button class="menu-btn" onclick="toggleMenu()">☰</button>
+
+<h1>
+<img src="images/MP.png" class="logo-img" alt="Midnight Policy Logo">
+Midnight Policy
+</h1>
+
+<div class="search-box">
+<input type="text" id="searchInput" placeholder="🔍 Search...">
+</div>
+
+</div>
+
+<nav id="navbar">
+<a href="index.html">Home</a>
+<a href="india.html">India</a>
+<a href="world.html" class="active">World</a>
+<a href="economy.html">Economy</a>
+<a href="defence.html">Defence</a>
+<a href="research.html">Research</a>
+<a href="about.html">About</a>
+<a href="contact.html">Contact</a>
+</nav>
+
 </header>
 
-<section class="hero">
-<h2>Latest India News</h2>
-<p>Stay updated with political, economic and national developments across India.</p>
 
-<a href="index.html">
-<button>Back to Home</button>
+<section class="headlines">
+
+<h2>Latest World News</h2>
+
+<div class="headline-list">
+
+<a href="article1.html">
+Global Leaders Meet for Climate Summit
 </a>
 
+<a href="article1.html">
+International Trade Talks Continue
+</a>
+
+<a href="article1.html">
+Technology Companies Expand AI Research
+</a>
+
+<a href="article1.html">
+Energy Markets Show Strong Recovery
+</a>
+
+</div> 
+
 </section>
+
+<section class="top-stories">
+
+<h2>Top World Stories</h2>
+
+<div class="grid">
+
+<a href="article1.html" class="card-link">
+<div class="card">
+<img src="images/MP.png" alt="">
+<h3>Climate Summit</h3>
+<p>World leaders discuss climate goals.</p>
+</div>
+</a>
+
+<a href="article1.html" class="card-link">
+<div class="card">
+<img src="images/MP.png" alt="">
+<h3>Global Economy</h3>
+<p>International markets continue recovering.</p>
+</div>
+</a>
+
+<a href="article1.html" class="card-link">
+<div class="card">
+<img src="images/MP.png" alt="">
+<h3>Technology</h3>
+<p>AI innovation expands worldwide.</p>
+</div>
+</a>
+
+</div>
+
+</section>
+
+<section class="featured-news">
+
+<h2>Featured World News</h2>
+
+<div class="featured-card">
+
+<img src="images/MP.png" alt="">
+
+<div class="featured-content">
+
+<h3>Global Cooperation Increases</h3>
+
+<p>
+International organizations continue working together on security, trade and climate issues.
+</p>
+
+<a href="article1.html">
+<button>Read More</button>
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+
+<footer>
+
+<h3>Midnight Policy</h3>
+
+<p>Truth Beyond Headlines</p>
+
+<div class="social">
+<a href="#">📘 Facebook</a>
+<a href="#">🐦 X</a>
+<a href="#">📷 Instagram</a>
+<a href="#">▶ YouTube</a>
+</div>
+
+<p>© 2026 Midnight Policy. All Rights Reserved.</p>
+
+</footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>

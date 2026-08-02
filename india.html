@@ -9,30 +9,142 @@
 
 <body>
 
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="india.html">India</a>
-        <a href="world.html">world</a>
-        <a href="economy.html">Economy</a>
-        <a href="defence.html">Defence</a>
-        <a href="research.html">Research</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
-     </nav>
 
 <header>
-<h1>🇮🇳 India News</h1>
+
+<div class="top-bar">
+
+<button class="menu-btn" onclick="toggleMenu()">☰</button>
+
+<h1>
+<img src="images/MP.png" class="logo-img" alt="Midnight Policy Logo">
+Midnight Policy
+</h1>
+
+<div class="search-box">
+<input type="text" id="searchInput" placeholder="🔍 Search...">
+</div>
+
+</div>
+
+<nav id="navbar">
+<a href="index.html">Home</a>
+<a href="india.html" class="active">India</a>
+<a href="world.html">World</a>
+<a href="economy.html">Economy</a>
+<a href="defence.html">Defence</a>
+<a href="research.html">Research</a>
+<a href="about.html">About</a>
+<a href="contact.html">Contact</a>
+</nav>
+
 </header>
 
-<section class="hero">
-<h2>Latest India News</h2>
-<p>Stay updated with political, economic and national developments across India.</p>
+<section class="headlines">
 
-<a href="index.html">
-<button>Back to Home</button>
-</a>
+    <h2>Latest India News</h2>
+
+    <div class="headline-list">
+
+        <a href="article1.html">
+            India Strengthens Space Programme
+        </a>
+
+        <a href="article1.html">
+            Parliament begins Monsoon Session
+        </a>
+
+        <a href="article1.html">
+            New infrastructure projects announced
+        </a>
+
+        <a href="article1.html">
+            Technology sector records strong growth
+        </a>
+
+    </div>
 
 </section>
+
+<section class="top-stories">
+
+<h2>Top India Stories</h2>
+
+<div class="grid">
+
+<a href="article1.html" class="card-link">
+<div class="card">
+<img src="images/MP.png" alt="">
+<h3>India Strengthens Space Programme</h3>
+<p>ISRO prepares for future space missions.</p>
+</div>
+</a>
+
+<a href="article1.html" class="card-link">
+<div class="card">
+<img src="images/MP.png" alt="">
+<h3>Parliament Session Begins</h3>
+<p>Lawmakers discuss key national bills.</p>
+</div>
+</a>
+
+<a href="article1.html" class="card-link">
+<div class="card">
+<img src="images/MP.png" alt="">
+<h3>Infrastructure Growth</h3>
+<p>New highway and railway projects announced.</p>
+</div>
+</a>
+
+</div>
+
+</section>
+
+<section class="featured-news">
+
+<h2>Featured India News</h2>
+
+<div class="featured-card">
+
+<img src="images/MP.png" alt="India News">
+
+<div class="featured-content">
+
+<h3>India Expands Digital Infrastructure</h3>
+
+<p>
+The government announced new digital infrastructure projects to improve connectivity, public services and technology access across the country.
+</p>
+
+<a href="article1.html">
+<button>Read More</button>
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<h3>Midnight Policy</h3>
+
+<p>Truth Beyond Headlines</p>
+
+<div class="social">
+<a href="#">📘 Facebook</a>
+<a href="#">🐦 X</a>
+<a href="#">📷 Instagram</a>
+<a href="#">▶ YouTube</a>
+</div>
+
+<p>© 2026 Midnight Policy. All Rights Reserved.</p>
+
+</footer>
+
+<script src="script.js"></script>
+
 
 </body>
 </html>

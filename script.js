@@ -75,3 +75,34 @@ document.getElementById("searchInput").addEventListener("keypress", function(eve
 function toggleMenu(){
     document.getElementById("navbar").classList.toggle("show");
 }
+
+// ===============================
+// Breaking News
+// ===============================
+
+const headlines = [
+
+"ISRO announces new lunar mission",
+
+"Global markets close higher after economic data",
+
+"New Defence Technology unveiled",
+
+"Artificial Intelligence transforms industries",
+
+"India strengthens semiconductor mission"
+
+];
+
+const ticker = document.getElementById("tickerContent");
+
+headlines.forEach(news =>{
+
+const span=document.createElement("span");
+
+span.textContent=news;
+
+ticker.appendChild(span);
+
+});
+

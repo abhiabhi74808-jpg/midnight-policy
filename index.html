@@ -41,7 +41,7 @@ initial-scale=1.0">
 
 
 <nav id="navbar">
-    <a href="index.html">Home</a>
+    <a href="index.html" class="active">Home</a>
     <a href="india.html">India</a>
     <a href="world.html">World</a>
     <a href="economy.html">Economy</a>
@@ -54,6 +54,16 @@ initial-scale=1.0">
 
 </header>
 
+<section class="breaking-news">
+
+    <span class="breaking-label">🔴 BREAKING</span>
+
+    <div class="ticker">
+       <div class="ticker-content" id="tickerContent"></div>
+    </div>
+
+</section>
+
 
 <section class="headlines">
 
@@ -61,7 +71,7 @@ initial-scale=1.0">
 
 <div class="headline-list">
 
-<a href="article1.html">
+<a href="india.html">
 India's Space Programme Reaches New Milestone
 </a>
 
@@ -72,7 +82,7 @@ Global Leaders Meet for Climate Summit
 <a href="economy.html">
 Markets Close Higher After Economic Data
 </a>
-
+ 
 <a href="defence.html">
 New Defence Technology Under Development
 </a>
@@ -81,51 +91,45 @@ New Defence Technology Under Development
 
 </section>
 
-
-<section class="latest-headlines">
-
-<h2>Latest Headlines</h2>
-
-<ul>
-
-<li><a href="article1.html">India's Space Programme Reaches New Milestone</a></li>
-
-<li><a href="world.html">Global Leaders Meet for Climate Summit</a></li>
-
-<li><a href="economy.html">Markets Close Higher After Economic Data</a></li>
-
-<li><a href="defence.html">New Defence Technology Under Development</a></li>
-
-</ul>
-
-</section>
-
-
 <section class="hero">
 
     <div class="hero-content">
 
-    <span class="hero-tag">🔥 Breaking Analysis</span>
+        <span class="hero-tag">Featured Story</span>
 
-    <img src="images/MP.png" class="hero-image" alt="Featured Story">
+        <h1>Truth Beyond Headlines</h1>
 
-    <h1>Truth Beyond Headlines</h1>
+        <p>
+            Independent journalism delivering verified reporting on
+            India, world affairs, defence, economy and public policy.
+        </p>
 
-    <p>
-        Independent journalism covering India, World Affairs,
-        Defence, Economy and Policy Research.
-    </p>
+        <div class="hero-buttons">
 
-    <a href="#top-stories">
-        <button>Explore Stories →</button>
-    </a>
+            <a href="article1.html">
+                <button>Read Featured Story</button>
+            </a>
 
-</div>
+            <a href="#top-stories">
+                <button class="secondary-btn">Top Stories</button>
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="hero-image">
+
+        <img src="images/MP.png" alt="Featured Story">
+
+    </div>
 
 </section>
 
 <section class="featured-news">
     <h2>Featured News</h2>
+
+    <a href="article1.html" class="card-link">
 
     <div class="featured-card">
         <img src="images/MP.png" alt="Featured News">
@@ -142,6 +146,9 @@ New Defence Technology Under Development
             </a>
         </div>
     </div>
+    </a>
+
+
 </section>
 
 <section class="top-stories" id="top-stories">
@@ -166,12 +173,13 @@ New Defence Technology Under Development
 </div>
 </a>
 
+<a href="economy.html" class="card-link">
 <div class="card">
 <img src="images/MP.png" alt="">
 <h3>Economy</h3>
 <p>Markets, business and financial news.</p>
 </div>
-
+</a>
 </div>
 
 </section>
@@ -182,30 +190,37 @@ New Defence Technology Under Development
 
 <div class="grid">
 
+<a href="india.html" class="card-link">    
 <div class="card">
 <img src="images/MP.png" alt="">
 <h3>India</h3>
 <p>Latest political and national news.</p>
 </div>
+</a>
 
+<a href="world.html" class="card-link">
 <div class="card">
 <img src="images/MP.png" alt="">
 <h3>World</h3>
 <p>Global affairs and international updates.</p>
 </div>
+</a>
 
+<a href="economy.html" class="card-link">
 <div class="card">
 <img src="images/MP.png" alt="">
 <h3>Economy</h3>
 <p>Markets, business and financial news.</p>
 </div>
+</a>
 
+<a href="defence.html" class="card-link">
 <div class="card">
 <img src="images/MP.png" alt="">
 <h3>Defence</h3>
 <p>Military, security and strategic affairs.</p>
 </div>
-
+</a>
 </div>
 
 </section>
